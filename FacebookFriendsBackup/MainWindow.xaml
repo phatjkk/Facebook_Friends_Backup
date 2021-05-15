@@ -1,0 +1,31 @@
+<Window
+	x:Class="FacebookFriendsBackup.MainWindow" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:local="clr-namespace:FacebookFriendsBackup"
+	Height="135.833"
+	Width="325.728"
+	ResizeMode="NoResize"
+	Title="Nhập token vào đây :"
+	WindowStartupLocation="CenterScreen"
+	Icon="icons8-facebook-50.png">
+	<Grid>
+		<Button
+			Name="_dangnhap"
+			Content="Tiếp tục"
+			HorizontalAlignment="Left"
+			Height="29"
+			Margin="10,66,0,0"
+			VerticalAlignment="Top"
+			Width="298"
+			Grid.ColumnSpan="2"
+			Click="_dangnhap_Click" />
+		<TextBox
+			Name="_cc"
+			HorizontalAlignment="Left"
+			Height="51"
+			Margin="10,10,0,0"
+			TextWrapping="Wrap"
+			Text=""
+			VerticalAlignment="Top"
+			Width="298"
+			Grid.ColumnSpan="2" />
+	</Grid>
+</Window>
